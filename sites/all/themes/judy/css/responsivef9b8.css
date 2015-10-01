@@ -1,0 +1,329 @@
+/* responsive */
+@media screen and (max-width: 1220px) {
+	#background{
+		min-width:1120px;
+	}	
+	
+	.wrap{
+		width:1100px;
+		margin:0 auto;
+	}
+	
+
+	
+}
+
+@media screen and (max-width: 1120px) {
+	#background{
+		min-width:980px;
+	}	
+	
+	.wrap{
+		width:960px;
+		margin:0 auto;
+	}
+}
+
+@media screen and (max-width: 980px) {
+	#background{
+		min-width:760px;
+	}	
+	
+	.wrap{
+		width:740px;
+		margin:0 auto;
+	}
+	
+	/* logo & menu */
+
+	#header .main-menu{
+		display:none;
+	}
+	
+	#toggle-menu-button{
+		display:block;
+		float:left;
+	}
+
+	.top-social{
+		width:100%;
+		padding-left:60px;
+		float:none;
+	}
+	
+	
+	/* layout */
+	.big-column{
+		float:none;
+		width:100%;
+	}
+	
+	.small-column{
+		float:none;
+		width:100%;
+		padding-left:0px;
+		padding-top:40px;
+	}
+	
+	/* blog */
+	
+	.depth-2 .comment-entry{
+		padding-left:50px;
+	}
+
+	.depth-3 .comment-entry{
+		padding-left:100px;
+	}
+
+	.depth-4 .comment-entry{
+		padding-left:150px;
+	}
+
+	.depth-5 .comment-entry{
+		padding-left:200px;
+	}
+	
+	#footer-copyright{
+		float:none;
+		width:100%;
+		text-align:center;
+		padding-bottom:5px;
+	}
+	
+	#footer-right{
+		float:none;
+		width:100%;
+		text-align:center;
+	}
+	
+	#footer-right ul li{
+		margin-left:10px;
+	}
+	
+	#footer-right ul li:first-child{
+		margin-left:0px;
+	}
+	
+	
+	
+}
+
+@media screen and (max-width: 780px) {
+	#background{
+		min-width:460px;
+	}
+
+	
+	.wrap{
+		width:440px;
+		margin:0 auto;
+	}
+
+	
+	/* blog */
+	
+	.post-entry-button,.post-entry-author,.post-entry-date{
+		padding:0px 10px;
+		display:inline-block;
+	}
+	
+	
+	a.post-entry-button{
+		padding:0px 10px;
+	}
+	
+	.post-entry-bottom{
+		padding:10px 20px;
+	}
+	
+	.depth-2 .comment-entry{
+		padding-left:0px;
+	}
+
+	.depth-3 .comment-entry{
+		padding-left:0px;
+	}
+
+	.depth-4 .comment-entry{
+		padding-left:0px;
+	}
+
+	.depth-5 .comment-entry{
+		padding-left:0px;
+	}
+	
+	/* layout */
+	
+	.column1_2,
+	.column1_3,
+	.column2_3,
+	.column1_4,
+	.column2_4,
+	.column3_4,
+	.column1_3.column-last,
+	.column2_3.column-last{
+		float:none;
+		width:100%;
+	}
+	
+	.post-entry-body{
+		padding:20px;
+	}
+	
+	.post-entry-link{
+		padding:20px;
+	}
+	
+	.post-entry-quote{
+		padding:20px;
+	}
+	
+	.post-relative-column,.post-relative-column.column-last{
+		float:none;
+		width:100%;
+	}
+	
+	.post-relative .post-section-title,.comment-number,h3#reply-title{
+		padding:10px 20px;
+	}
+	
+	.comment-entry-left{
+		padding:10px 20px 0px 20px;
+	}
+	
+	.comment-entry-right{
+		padding:10px 20px;
+	}
+	
+	.comment-reply{
+		position:relative;
+	}
+	
+	.comment-form{
+		padding:10px 20px;
+	}
+	
+	p.comment-form-comment{
+		padding-bottom:0px;
+	}
+	
+	.author-bio-page{
+		padding:20px;
+	}
+	
+	.form-submit{
+		padding-bottom:20px;
+	}
+	
+	.comment-form-left,.logged-in-as{
+		float:none;
+		width:100%;
+		margin-right:0%;
+	}
+	
+	.comment-form-comment,.form-submit{
+		float:none;
+		width:100%;
+		margin-right:0%;
+	}
+	
+	.author-bio-avatar{
+		padding-right:20px;
+	}
+	
+	.author-bio-details{
+		margin-left:0px;
+	}
+	
+	.post-entry-quote i{
+		font-size:36px;
+		line-height:36px;
+		right:20px;
+		bottom:16px;
+	}
+	
+	.post-entry-quote h1.post-entry-content{
+		font-size:30px;
+		line-height:36px;
+	}
+	
+	.post-relative-content{
+		padding:20px 20px 0px 20px;
+	}
+	
+	.post-relative-column,.post-relative-column.column-last{
+		padding:0px 0px 20px 0px;
+	}
+	
+	.sidebar-widget-title{
+		padding:10px 20px;
+	}
+	
+	.sidebar-widget .sidebar-widget-content{
+		padding:10px 20px;
+	}
+	
+	/* custom widget */
+	.widget_wope_posts_widget .sidebar-widget-content{
+		padding:0px;
+	}
+
+	/* calendar widget */
+	.widget_calendar .sidebar-widget-content{
+		padding:0px;
+	}
+	
+	/* subcribe form widget */
+	.widget_mc4wp_widget .sidebar-widget-content{
+		padding:0px;
+	}
+	
+	.footer-column ,.footer-column:first-child,.footer-column.column-last{
+		float:none;
+		width:100%;
+		padding:0px;
+		border-right:0px !important;
+	}
+	
+	.footer-widget,.footer-column.column-last .footer-widget{
+		padding:30px 0px;
+	}
+	
+	.footer-column{
+		border-bottom:1px solid #e5e5e5;
+	}
+	
+	.footer-column.column-last{
+		border-bottom:0px;
+	}
+	
+}	
+	
+
+@media screen and (max-width: 480px) {
+	#background{
+		min-width:100%;
+	}
+
+	.wrap{
+		width:auto;
+		margin:0 auto;
+		padding:0px 20px;
+	}
+	
+	.top-social{
+		display:none;
+	}
+	
+
+	#toggle-menu-button{
+		right:20px;
+	}
+
+	
+	#main-menu-toggle a {
+		padding-left:0px;
+		padding-right:0px;
+	}
+}
+

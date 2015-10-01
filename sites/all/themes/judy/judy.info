@@ -1,0 +1,46 @@
+;Theme info
+name = Judy
+description = judy ready for use Industries, School, hospital, corporative, travel, fashion, jewellery and any business.
+package = Core
+version = VERSION
+core = 7.x
+screenshot = 'screenshot.png'
+
+;Core regions
+
+
+regions[top_menu_mobie] = 'Top menu mobie'
+regions[top_bar_left] = 'Top bar left'
+regions[top_bar_right] = 'Top bar right'
+regions[sidebar_first] = 'Sidebar first'
+regions[sidebar_second] = 'Sidebar second'
+regions[footer_column_1] = 'Footer column 1'
+regions[footer_column_2] = 'Footer column 2'
+regions[footer_column_3] = 'Footer column 3'
+regions[content] = 'Main Content'
+regions[bottom_bar_right] = 'Bottom bar right'
+regions[maps_contact_page] = 'Map contact Page'
+regions[description_content_contact] = 'Content contact Page'
+regions[form_contact] = 'Form contact'
+regions[page_header] = 'Page header'
+
+;Features (core settings)
+features[] = 'logo'
+features[] = 'name'
+ 
+features[] = 'slogan'
+features[] = 'node_user_picture'
+features[] = 'comment_user_picture'
+features[] = 'comment_user_verification'
+features[] = 'favicon'
+features[] = 'go_to_top_button'
+features[] = 'secondary_menu'
+
+;Breadcrumb
+settings[breadcrumb_display] = 'yes'
+settings[breadcrumb_separator] = ' &#187; '
+settings[breadcrumb_home] = 1
+
+version = "7.x"
+project = "Judy"
+datestamp = "1365027012"
