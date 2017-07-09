@@ -17,7 +17,6 @@ if($node->type=='blog'){
 	if($node->field_image){
 
 	$imageone = $node->field_image['und'][0]['uri'];
-
 	}else{
 
 	$imageone = '';
@@ -50,7 +49,9 @@ if(!$page){
 
       <div class="post-entry-media">
 
-        <a href="<?php print $node_url; ?>" title="<?php print $title;?>"><?php print theme('image', array('path' => $imageone, 'attributes'=>array('class'=>'attachment-post-thumbnail', 'alt'=>$title)));?></a>
+        <a href="<?php print $node_url; ?>" title="<?php print $title;?>">
+	    <img src="<?php echo image_style_url('blog_780x350', $imageone); ?>" />
+	</a>
 
       </div>
 
@@ -454,7 +455,7 @@ if(!$page){
 
       <div class="post-entry-media">
 
-        <a href="<?php print $node_url; ?>" title="<?php print $title;?>"><?php print theme('image', array('path' => $imageone, 'attributes'=>array('class'=>'attachment-post-thumbnail', 'alt'=>$title)));?></a>
+        <a href="<?php print $node_url; ?>" title="<?php print $title;?>"><img src="<?php echo image_style_url('blog_780x350', $imageone); ?>" /></a>
 
       </div>
 
